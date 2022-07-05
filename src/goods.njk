@@ -1,0 +1,11 @@
+---
+title: My Shop
+layout: layout.njk
+path: ../../css
+pagination:
+  data: items
+  size: 1
+  alias: item
+permalink: 'goods/{{ item.en | slugify }}/'
+---
+

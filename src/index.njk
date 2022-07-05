@@ -1,0 +1,21 @@
+---
+title: My Shop
+layout: layout.njk
+path: ./css
+---
+
+<header>
+    <h1>{{ title }}</h1>
+</header>
+<main>
+    <h2>item</h2>
+    <ul>
+        {% for item in items %}
+        <h3>{{ item.name }}</h3>
+        <p>{{ item.price }}</p>
+        {% endfor %}
+    </ul>
+</main>
+<footer>
+    <small>©My Shop 2022</small>
+</footer>
