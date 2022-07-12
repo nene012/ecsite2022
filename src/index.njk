@@ -5,17 +5,29 @@ path: ./css
 ---
 
 <header>
-    <h1>{{ title }}</h1>
+    <div class="items">
+        <h1 class="title">{{ title }}</h1>
+        <nav>
+            <ul>
+                <li>home</li>
+                <li>about</li>
+            </ul>
+        </nav>
+    </div>
 </header>
 <main>
-    <h2>item</h2>
-    <ul>
+    <div class="subtitle">
+        <h2>item</h2>
+    </div>
+    <div class="contents">
         {% for item in items %}
-        <h3>{{ item.name }}</h3>
-        <p>{{ item.price }}</p>
+            <h3>{{ item.name }}</h3>
+            <p>{{ item.price }}</p>
         {% endfor %}
-    </ul>
+    </div>
 </main>
 <footer>
-    <small>©My Shop 2022</small>
+    <div class="small">
+        <small>©My Shop 2022</small>
+    </div>
 </footer>

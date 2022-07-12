@@ -1,3 +1,30 @@
 body{
     font-size: 16px;
 }
+
+li{
+    list-style: none;
+}
+
+
+/* header */
+.items{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+/* main */
+.subtitle{
+    text-align: center;
+}
+
+/* footer */
+.small{
+    padding: 20px;
+    text-align: center;
+}
