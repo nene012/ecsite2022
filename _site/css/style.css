@@ -13,13 +13,16 @@ body {
     }
     
     img {
-    max-width: 100%;
+        width: 100%;
+        height: auto;
+        vertical-align: bottom;
     }
     
     
     /* header */
     .title {
     padding: 0 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     }
     
     .about {
@@ -52,17 +55,82 @@ body {
         width: 5%;
         margin: 25px;
     }
-    
+
+
+    /* 個別ページ */
+    .img_click{
+        margin:0 0 5px 0;
+    }
+
+    .img_click li{
+        list-style:none;
+    }
+
+    .slick-prev, 
+    .slick-next {
+    position: absolute;
+	z-index: 3;
+    top: 42%;
+    cursor: pointer;
+    outline: none;
+    border-top: 2px solid #ccc;
+    border-right: 2px solid #ccc;
+    height: 25px;
+    width: 25px;
+}
+
+.slick-prev {/*戻る矢印の位置と形状*/
+    left:2.5%;
+    transform: rotate(-135deg);
+}
+
+.slick-next {/*次へ矢印の位置と形状*/
+    right:2.5%;
+    transform: rotate(45deg);
+}
+
+/*選択するサムネイル画像の設定*/
+
+.choice-btn li{
+	cursor: pointer;
+	outline: none;
+	background:#333;
+	width:25%!important;
+    list-style:none;
+}
+
+.choice-btn li img{
+	opacity: 0.4;
+}
+
+.choice-btn li.slick-current img{
+	opacity: 1;
+}
+
+.choice-btn .slick-track {
+	transform: unset !important;
+}
     
     
     
     
     
     /* main */
+    .inner_single{
+        width: 70%;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+
     .goods-top {
     width: 28%;
     }
-    
+
+    .goods__item{
+        width: 30%;
+    }
+
     .remove {
     display: none;
     }
@@ -79,6 +147,109 @@ body {
         text-align: center;
         font-size: 20px;
     }
+
+    .sale{
+        width: 50%;
+        max-width: 100px;
+        background-color: #ccc;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        padding: 8px 14px;
+        border-radius: 40px 40px 40px 40px;
+        text-align: center;
+    }
+
+    /* moreボタン */
+    .more{
+        font-size: 18px;
+        position: relative;
+        display:inline-block;
+        background: #f09199;
+        color: #fff;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        padding: 10px 30px;
+        letter-spacing: 5px;
+        text-decoration: none;
+        outline: none;
+        overflow: hidden;
+        border-radius: 40px 40px 40px 40px;
+    }
+    
+    /*キラッと光る*/
+    .more::before {
+        content: '';
+        /*絶対配置でキラッと光るの位置を決める*/
+        position: absolute;
+        top: 0;
+        left: -75%;
+        /*キラッと光る形状*/
+        width: 50%;
+        height: 100%;
+        background: linear-gradient(to right, rgba(246, 191, 188, 1) 0%, rgba(246, 191, 188, 1) 100%);
+        transform: skewX(-25deg);
+    }
+    
+    /*hoverした際の移動のアニメーション*/
+    .more:hover::before {
+        animation: shine 0.7s;
+    }
+    
+    @keyframes shine {
+        100% {
+            left: 125%;
+        }
+    }
+
+
+    /* 個別ページ */
+    header{
+        margin-bottom: 10%;
+    }
+
+    .title_goods{
+        margin-bottom: 20px;
+    }
+
+    .li_about{
+        margin-bottom: 20px;
+    }
+
+    .num_goods{
+        margin-bottom: 20px;
+    }
+
+    .inner_single{
+        display: flex;
+        max-width: 100%;
+        margin-bottom: 30%;
+    }
+
+    .items_img{
+        width: 40%;
+    }
+
+    .flex{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    #num{
+        padding: 3px 20px;
+    }
+
+    /* カートに入れる */
+.cart_btn {
+  color: #fff;
+  background-color: #f6bfbc;
+  width: 40%;
+  padding: 10px 5px;
+  border-radius: 30px 30px 30px 30px;
+  text-align: center;
+}
+.cart_btn:hover,
+a.cart_btne:hover {
+  color: #fff;
+  background: #f0908d;
+}
     
     
     /* footer */

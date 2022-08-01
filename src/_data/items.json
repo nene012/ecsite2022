@@ -13,7 +13,7 @@
         "colors": "BL",
         "maker": "株式会社 Francfranc",
         "url": "fun",
-        "size": "L"
+        "size": "Lサイズ"
     },
     {
         "itemphotos": [
@@ -29,7 +29,7 @@
         "colors": "黒",
         "maker": " kate spade new york",
         "url": "passcase",
-        "size": "M"
+        "size": "Mサイズ"
     },
     {
         "itemphotos": [
@@ -45,11 +45,11 @@
         "colors": "黒",
         "maker": "株式会社マツモトキヨシ | マツキヨココカラ＆カンパニー",
         "url": "brush",
-        "size": "S"
+        "size": "Sサイズ"
     },
     {
         "itemphotos": [
-            "yochan01.jpg",
+            "comb1.jpeg",
             "yochan02.jpg",
             "yochan03.jpg",
             "yochan04.jpg"
@@ -62,11 +62,11 @@
         "colors": "オーロラ",
         "maker": "タングルティーザー",
         "url": "comb",
-        "size": "M"
+        "size": "Mサイズ"
     },
     {
         "itemphotos": [
-            "umaibo01.jpg",
+            "hot1.jpeg",
             "umaibo02.jpg",
             "umaibo03.jpg"
         ],
@@ -78,11 +78,11 @@
         "colors": "-P クリーミーピンク",
         "maker": "パナソニック株式会社",
         "url": "hot",
-        "size": "M"
+        "size": "Mサイズ"
     },
     {
         "itemphotos": [
-            "yochan01.jpg",
+            "neil1.jpeg",
             "yochan02.jpg",
             "yochan03.jpg",
             "yochan04.jpg"
@@ -95,11 +95,11 @@
         "colors": "ほんのりピンク",
         "maker": "株式会社エリザベス",
         "url": "neil",
-        "size": "S"
+        "size": "Sサイズ"
     },
     {
         "itemphotos": [
-            "umaibo01.jpg",
+            "lip.jpeg",
             "umaibo02.jpg",
             "umaibo03.jpg"
         ],
@@ -111,11 +111,11 @@
         "colors": "POMELO SKIN",
         "maker": "rom＆nd",
         "url": "lip",
-        "size": "S"
+        "size": "Sサイズ"
     },
     {
         "itemphotos": [
-            "yochan01.jpg",
+            "honey1.jpeg",
             "yochan02.jpg",
             "yochan03.jpg",
             "yochan04.jpg"
@@ -128,7 +128,7 @@
         "colors": "オレンジ",
         "maker": "&honey",
         "url": "honey",
-        "size": "S"
+        "size": "Sサイズ"
     },
     {
         "itemphotos": [
@@ -144,7 +144,7 @@
         "colors": "プラチナム",
         "maker": "Jill Stuart",
         "url": "jill",
-        "size": "M"
+        "size": "Mサイズ"
     },
     {
         "itemphotos": [
@@ -161,6 +161,6 @@
         "colors": "クリア",
         "maker": "エルソニック株式会社",
         "url": "case",
-        "size": "M"
+        "size": "Mサイズ"
     }
 ]
