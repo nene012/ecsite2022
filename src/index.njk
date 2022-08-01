@@ -4,30 +4,40 @@ layout: layout.njk
 path: ./css
 ---
 
-<header>
-    <div class="items">
-        <h1 class="title">{{ title }}</h1>
-        <nav>
-            <ul>
-                <li>home</li>
-                <li>about</li>
-            </ul>
-        </nav>
-    </div>
+<header class="header">
+<div class="items">
+<h1 class="title">{{ title }}</h1>
+<div class="cart">
+<img src="./goods/cart.png">
+</div>
+</div>
 </header>
-<main>
-    <div class="subtitle">
-        <h2>item</h2>
-    </div>
-    <div class="contents">
-        {% for item in items %}
-            <h3>{{ item.name }}</h3>
-            <p>{{ item.price }}</p>
-        {% endfor %}
-    </div>
+<main class="main">
+<div class="subtitle">
+<h2>item</h2>
+</div>
+<div class="contents">
+{% for item in items %}
+<div class="goods-top">
+<li>
+<a href="./goods/{{ item.url }}">
+<img src="./goods/{{ item.itemphotos[0] }}">
+<h3>{{ item.name }}</h3>
+<p>{{ item.maker }}</p>
+<p>{{ item.price }}</p>
+<p class="sale">{{ item.state }}</p>
+</a>
+</li>
+</div>
+{% endfor %}
+</div>
+<div class="btn">
+<a class="more" href="#">more</a>
+</div>
 </main>
-<footer>
-    <div class="small">
-        <small>©My Shop 2022</small>
-    </div>
+<footer class="footer">
+<div class="small">
+<small>©My Shop 2022</small>
+</div>
 </footer>
+<script src="./js/script.js"></script>
