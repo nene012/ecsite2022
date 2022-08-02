@@ -1,6 +1,7 @@
 body {
     font-size: 16px;
     margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     }
     
     a {
@@ -23,6 +24,7 @@ body {
     .title {
     padding: 0 30px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    color: aliceblue;
     }
     
     .about {
@@ -32,6 +34,7 @@ body {
     .subtitle {
     text-align: center;
     padding: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     }
     
     .contents {
@@ -45,7 +48,7 @@ body {
     display: flex;
     justify-content: space-between;
     background-image: url(../goods/first.jpg);
-    height: 100vh;
+    height: 80vh;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -161,6 +164,7 @@ body {
     /* moreボタン */
     .more{
         font-size: 18px;
+        margin-bottom: 30px;
         position: relative;
         display:inline-block;
         background: #f09199;
@@ -254,6 +258,8 @@ a.cart_btne:hover {
     
     /* footer */
     .small {
+        color: aliceblue;
     padding: 20px;
     text-align: center;
+    background-color: #f6bfbc;
     }
