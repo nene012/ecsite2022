@@ -5,11 +5,11 @@
 2022 年度 Web デザイン学科 WS1「JavaScript 演習」課題 SSG で EC サイト
 
 ## 完成品
-
+https://moo-mute-beppu-1051.ssl-lolipop.jp/_site/index.html
 <!-- 完成後、ここにURLを貼ってください。-->
 
 ## Features
-
+画像の加工と数量をお一人様一点にしたので1個しか買えないようにしました。
 <!-- セールスポイントや差別化などを説明する。-->
 
 ## Requirement
