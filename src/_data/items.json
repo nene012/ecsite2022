@@ -1,9 +1,9 @@
 [
     {
         "itemphotos": [
-            "fun1.jpeg",
-            "umaibo02.jpg",
-            "umaibo03.jpg"
+            "fun1.jpg",
+            "fun2.jpg",
+            "fun3.jpg"
         ],
         "name": "フレ ハンディファン マーブル ブルー （扇風機）",
         "price": "¥1,980",
@@ -33,9 +33,9 @@
     },
     {
         "itemphotos": [
-            "burush1.jpeg",
-            "umaibo02.jpg",
-            "umaibo03.jpg"
+            "brush1.jpg",
+            "brush2.jpg",
+            "brush3.jpg"
         ],
         "name": "matsukiyo 携帯用スリムブラシ",
         "price": "¥396",
@@ -49,10 +49,9 @@
     },
     {
         "itemphotos": [
-            "comb1.jpeg",
-            "yochan02.jpg",
-            "yochan03.jpg",
-            "yochan04.jpg"
+            "comb1.jpg",
+            "comb2.jpg",
+            "comb3.jpg"
         ],
         "name": "タングルティーザー　コンパクトスタイラー オーロラジュエル",
         "price": "¥2,530",
@@ -66,9 +65,9 @@
     },
     {
         "itemphotos": [
-            "hot1.jpeg",
-            "umaibo02.jpg",
-            "umaibo03.jpg"
+            "hot1.jpg",
+            "hot2.jpg",
+            "hot3.jpg"
         ],
         "name": "まつげくるん セパレートコーム EH-SE51",
         "price": "¥2,500",
@@ -82,10 +81,9 @@
     },
     {
         "itemphotos": [
-            "neil1.jpeg",
-            "yochan02.jpg",
-            "yochan03.jpg",
-            "yochan04.jpg"
+            "neil1.jpg",
+            "neil2.jpg",
+            "neil3.jpg"
         ],
         "name": "シュガードール オールインワンネイルR",
         "price": "¥990",
@@ -99,9 +97,9 @@
     },
     {
         "itemphotos": [
-            "lip.jpeg",
-            "umaibo02.jpg",
-            "umaibo03.jpg"
+            "lip1.jpg",
+            "lip2.jpg",
+            "lip3.jpg"
         ],
         "name": "rom&nd ジューシーラスティングティント ",
         "price": "¥1,320",
@@ -115,10 +113,9 @@
     },
     {
         "itemphotos": [
-            "honey1.jpeg",
-            "yochan02.jpg",
-            "yochan03.jpg",
-            "yochan04.jpg"
+            "honey1.jpg",
+            "honey2.jpg",
+            "honey3.jpg"
         ],
         "name": "&honey マトメイク スティック4.0 ",
         "price": "¥1,078",
@@ -148,10 +145,9 @@
     },
     {
         "itemphotos": [
-            "yochan01.jpg",
-            "yochan02.jpg",
-            "yochan03.jpg",
-            "yochan04.jpg"
+            "case1.jpg",
+            "case2.jpg",
+            "case3.jpg"
         ],
         "name": "iPhone6/6s/7/8/SE2/SE3宇宙人ケース",
         "price": "¥429",
