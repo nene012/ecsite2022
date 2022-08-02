@@ -11,7 +11,7 @@ https://moo-mute-beppu-1051.ssl-lolipop.jp/_site/index.html
 ## Features
 サイト名:Essential Shop
 
-私が普段使っていて欠かせない(Essential)ものを売っているECサイトです。
+私が普段使っていて欠かせないもの(Essential)を売っているECサイトです。
 
 ECサイトで一番見るのは商品の画像だと思ったので一つ一つの画像を切り取りました。  
 教室で写真を撮ったのがバレないように色調補正をして商品をより見やすくしました。  
